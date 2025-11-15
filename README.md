@@ -39,7 +39,7 @@
 
 ## 📄 Пример манифеста `deployment.yaml`
 
-`yaml
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -98,7 +98,7 @@ spec:
           initialDelaySeconds: 10
           periodSeconds: 10
       imagePullSecrets:
-      - name: regcred`
+      - name: regcred```
 
 # Команды для применения и проверки
 
