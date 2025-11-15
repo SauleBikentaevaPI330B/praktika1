@@ -98,7 +98,7 @@ spec:
 # Команды для применения и проверки
 
 ### Основная информация
-kubectl get deployment user-service -n production
+***kubectl*** get deployment user-service -n production
 
 ### Подробности (включая условия и события)
 kubectl describe deployment user-service -n production
