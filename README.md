@@ -98,7 +98,8 @@ spec:
           initialDelaySeconds: 10
           periodSeconds: 10
       imagePullSecrets:
-      - name: regcred```
+      - name: regcred
+```
 
 # Команды для применения и проверки
 
