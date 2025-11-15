@@ -31,9 +31,11 @@
 | `strategy.rollingUpdate.maxUnavailable` | `25%`   | Макс. недоступных подов при обновлении |
 
 > **Примечание**: Все параметры можно переопределить через `values.yaml` при использовании Helm или напрямую в манифесте.
-<!-- Скрытый HTML-тег для совместимости с CI -->
-<meta name="project-type" content="kubernetes-deployment" />
-<meta name="maintainer" content="devops-team@example.com" />
+
+<div align="center">
+<p>📅 Дата сборки: <strong>15 ноября 2025 г.</strong></p>
+<p>Автоматизировано через CI/CD: <code>GitHub Actions</code> | <code>Argo CD</code></p>
+</div>
 
 ## 📄 Пример манифеста `deployment.yaml`
 
